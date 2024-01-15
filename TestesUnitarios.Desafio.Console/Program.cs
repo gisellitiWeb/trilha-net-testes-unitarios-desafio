@@ -8,4 +8,9 @@ Numeros.Add(9);
 Numeros.Add(7);
 Numeros.Add(3);
 Numeros.Add(6);
-li.MultiplicarNumerosLista(Numeros, 2);
+List <int> NumerosNovos = new List<int>();
+NumerosNovos = li.MultiplicarNumerosLista(Numeros, 2);
+foreach (int num in NumerosNovos)
+{
+    Console.WriteLine(num);
+}
